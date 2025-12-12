@@ -28,11 +28,12 @@
     <nav id="navbar">
         <div class="logo">LD.</div>
         <ul class="nav-links">
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#experience">Expériences</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#welcome">Accueil</a></li>
+            <li><a href="#engineering">Génie Logiciel</a></li>
+            <li><a href="#mobility">Mobilité</a></li>
+            <li><a href="#sustainability">RSE & Citoyenneté</a></li>
+            <li><a href="#activities">Activités</a></li>
+            <li><a href="#career">Carrière</a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -41,17 +42,28 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+    <!-- Welcome Section (Hero + About) -->
+    <section id="welcome" class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="animate-fade-up">Lilian Desesquelles</h1>
             <h2 class="animate-fade-up delay-1">Futur <span class="highlight">Ingénieur Informatique</span>, spécialité
-                <span class="highlight">Logiciel</span></h2>
+                <span class="highlight">Logiciel</span>
+            </h2>
             <p class="animate-fade-up delay-2">Étudiant à l'ENSEEIHT • Passionné par la tech et l'innovation</p>
             <div class="cta-group animate-fade-up delay-3">
-                <a href="#contact" class="btn btn-primary">Me Contacter</a>
-                <a href="#experience" class="btn btn-outline">Voir mes projets</a>
+                <a href="#career" class="btn btn-primary">Me Contacter</a>
+                <a href="#engineering" class="btn btn-outline">Voir mes projets</a>
+            </div>
+
+            <!-- About Summary (Integrated into Welcome Tab logic) -->
+            <div class="welcome-about animate-fade-up delay-3">
+                <p>
+                    Étudiant en <strong>2e année à l'ENSEEIHT</strong> (INP Toulouse) en <strong>Génie du
+                        Logiciel</strong>.
+                    Passionné par la <strong>cybersécurité</strong> et le développement complexe.
+                    Issu de <strong>CPGE Mathématiques et Physique Chimie</strong> (Lycée Faidherbe, Lille).
+                </p>
             </div>
         </div>
         <div class="scroll-down">
@@ -59,59 +71,14 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
+    <!-- Engineering Course Section -->
+    <section id="engineering" class="section bg-darker">
         <div class="container">
-            <h2 class="section-title">À propos de moi</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>
-                        Actuellement étudiant en <strong>2e année à l'ENSEEIHT</strong> (INP Toulouse) dans la filière
-                        Génie du Logiciel.
-                        J'ai 20 ans et je nourris une passion grandissante pour la <strong>cybersécurité</strong> et le
-                        développement complexe.
-                    </p>
-                    <p>
-                        Après deux années intenses en <strong>CPGE Mathématiques et Physique Chimie</strong> au lycée
-                        Faidherbe de Lille, j'ai acquis une rigueur scientifique et une capacité de travail qui me
-                        servent aujourd'hui dans mes projets d'ingénierie.
-                    </p>
-                    <div class="stats-row">
-                        <div class="stat-item">
-                            <span class="stat-number">2+</span>
-                            <span class="stat-label">Années d'Ingénierie</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">5+</span>
-                            <span class="stat-label">Langages Maîtrisés</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-cards">
-                    <div class="card glass">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h3>Education</h3>
-                        <p>ENSEEIHT (2024-2027)</p>
-                        <p class="sub">Génie Logiciel</p>
-                    </div>
-                    <div class="card glass">
-                        <i class="fas fa-search"></i>
-                        <h3>Recherche</h3>
-                        <p>Stage Technicien</p>
-                        <p class="sub">Juin - Août 2026</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <h2 class="section-title">Parcours Ingénieur & Projets</h2>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section bg-darker">
-        <div class="container">
-            <h2 class="section-title">Compétences Techniques</h2>
-
+            <!-- Skills moved here -->
             <div class="skills-wrapper">
-                <h3>Langages de Programmation</h3>
+                <h3>Compétences Techniques</h3>
                 <div class="skills-grid">
                     <div class="skill-card">
                         <i class="fab fa-java"></i>
@@ -142,71 +109,92 @@
                         <span>Matlab</span>
                     </div>
                 </div>
-
-                <h3>Soft Skills & Langues</h3>
-                <div class="soft-skills-grid">
-                    <div class="soft-item">
-                        <i class="fas fa-users"></i>
-                        <span>Travail d'équipe</span>
-                    </div>
-                    <div class="soft-item">
-                        <i class="fas fa-brain"></i>
-                        <span>Persévérance (Judo/Vélo)</span>
-                    </div>
-                    <div class="soft-item">
-                        <i class="fas fa-flag-usa"></i>
-                        <span>Anglais (B1)</span>
-                    </div>
-                    <div class="soft-item">
-                        <i class="fas fa-flag"></i>
-                        <span>Allemand (A2)</span>
-                    </div>
-                </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section">
-        <div class="container">
-            <h2 class="section-title">Expériences & Projets</h2>
-
+            <!-- Academic Projects -->
+            <h3 class="academic-projects-title">Projets Académiques</h3>
             <div class="timeline">
-                <!-- Item 1 -->
-                <div class="timeline-item left">
-                    <div class="content glass">
-                        <h2>2025 - Stage Alstom</h2>
-                        <span class="date">Petite-Forêt (59)</span>
-                        <p>Stage ouvrier de 6 semaines. Assemblages électroniques et mécaniques sur une ligne de
-                            finition ferroviaire. Découverte des processus industriels rigoureux.</p>
-                    </div>
-                </div>
-                <!-- Item 2 -->
                 <div class="timeline-item right">
                     <div class="content glass">
                         <h2>2025 - Projet Jeu Vidéo</h2>
-                        <span class="date">ENSEEIHT</span>
+                        <span class="date">ENSEEIHT - 2ème Année</span>
                         <p>Développement d'un jeu vidéo en Java en équipe de 8 personnes. Gestion de projet,
                             architecture logicielle et collaboration intense.</p>
                     </div>
                 </div>
-                <!-- Item 3 -->
                 <div class="timeline-item left">
                     <div class="content glass">
-                        <h2>2019 - Stage K-Net</h2>
-                        <span class="date">Amiens (80)</span>
-                        <p>Découverte chez un fournisseur d'accès internet. Utilisation et programmation de Raspberry
-                            Pi.</p>
+                        <h2>2024 - Projet Intégrateur</h2>
+                        <span class="date">ENSEEIHT - 1ère Année</span>
+                        <p>Projet de fin de première année. Application des fondements de l'ingénierie logicielle.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Interests Section -->
-    <section id="interests" class="section bg-darker">
+    <!-- International Mobility Section -->
+    <section id="mobility" class="section">
         <div class="container">
-            <h2 class="section-title">Centres d'Intérêts</h2>
+            <h2 class="section-title">Mobilité Internationale</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        L'ouverture internationale est au cœur de mon parcours. Je prépare activement ma mobilité pour
+                        élargir mes horizons culturels et techniques.
+                    </p>
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <span class="stat-number">B1</span>
+                            <span class="stat-label">Anglais (Toeic en cours)</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">A2</span>
+                            <span class="stat-label">Allemand</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="card glass">
+                        <i class="fas fa-globe-europe"></i>
+                        <h3>Objectif Mobilité</h3>
+                        <p>Semestre S9</p>
+                        <p class="sub">Recherche active de destinations</p>
+                    </div>
+                    <div class="card glass">
+                        <i class="fas fa-language"></i>
+                        <h3>Langues</h3>
+                        <p>Pratique quotidienne</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability & Civic Engagement Section -->
+    <section id="sustainability" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">RSE & Engagement Citoyen</h2>
+            <div class="interests-grid">
+                <div class="interest-card glass">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Sensibilisation RSE</h3>
+                    <p>Participation aux fresques du climat et numérique à l'ENSEEIHT. Conscience des impacts
+                        environnementaux du numérique.</p>
+                </div>
+                <div class="interest-card glass">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Engagement</h3>
+                    <p>Implication dans la vie associative de l'école. Valeurs de partage et d'entraide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sport & Other Activities Section -->
+    <section id="activities" class="section">
+        <div class="container">
+            <h2 class="section-title">Sports & Activités</h2>
             <div class="interests-grid">
                 <div class="interest-card glass">
                     <i class="fas fa-medal"></i>
@@ -225,14 +213,56 @@
                     <p>Équipe 1 de l'AS INP Toulouse. Esprit d'équipe et compétition.</p>
                 </div>
             </div>
+
+            <div class="soft-skills-grid">
+                <div class="soft-item">
+                    <i class="fas fa-users"></i>
+                    <span>Travail d'équipe</span>
+                </div>
+                <div class="soft-item">
+                    <i class="fas fa-brain"></i>
+                    <span>Persévérance</span>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
+    <!-- Career Development Section -->
+    <section id="career" class="section bg-darker">
         <div class="container">
-            <h2 class="section-title">Me Contacter</h2>
+            <h2 class="section-title">Développement de Carrière</h2>
+
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item left">
+                    <div class="content glass">
+                        <h2>2025 - Stage Alstom</h2>
+                        <span class="date">Petite-Forêt (59)</span>
+                        <p>Stage ouvrier de 6 semaines. Assemblages électroniques et mécaniques sur une ligne de
+                            finition ferroviaire. Découverte des processus industriels rigoureux.</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="timeline-item right">
+                    <div class="content glass">
+                        <h2>2019 - Stage K-Net</h2>
+                        <span class="date">Amiens (80)</span>
+                        <p>Découverte chez un fournisseur d'accès internet. Utilisation et programmation de Raspberry
+                            Pi.</p>
+                    </div>
+                </div>
+                <!-- Future Item -->
+                <div class="timeline-item left">
+                    <div class="content glass">
+                        <h2>2026 - Stage Technicien</h2>
+                        <span class="date">À venir (Juin - Août)</span>
+                        <p>Recherche active d'un stage de 3 mois en développement logiciel ou cybersécurité.</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="contact-wrapper glass">
+                <h3 style="text-align: center; margin-bottom: 20px;">Me Contacter</h3>
                 <div class="contact-info">
                     <a href="mailto:lilian.desesquelles@toulouse-inp.fr" class="contact-item">
                         <i class="fas fa-envelope"></i>
@@ -241,6 +271,11 @@
                     <a href="tel:0651599335" class="contact-item">
                         <i class="fas fa-phone"></i>
                         <span>06 51 59 93 35</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anthony-apruzzese/" target="_blank" class="contact-item">
+                        <!-- Placeholder linkedin from PDF example, should update if user has one, using generic for now or removing -->
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn (Lilian Desesquelles)</span>
                     </a>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
